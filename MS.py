@@ -45,5 +45,8 @@ mg_sort(a)
 
 end_time = time.time()
 
+print(a)
+
 elapsed_time_ms = (end_time - start_time) * 1000
 print(f"{elapsed_time_ms:.2f}")
+
